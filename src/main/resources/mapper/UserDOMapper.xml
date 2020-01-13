@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dmcq.miaosha.dao.UserDOMapper">
+  <resultMap id="BaseResultMap" type="com.dmcq.miaosha.dataobject.UserDO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="gender" jdbcType="TINYINT" property="gender" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="register_mode" jdbcType="VARCHAR" property="registerMode" />
+    <result column="third_party_id" jdbcType="VARCHAR" property="thirdPartyId" />
+  </resultMap>
+</mapper>
