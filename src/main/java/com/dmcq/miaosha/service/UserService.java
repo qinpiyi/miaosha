@@ -9,6 +9,6 @@ import com.dmcq.miaosha.service.model.UserModel;
  */
 public interface UserService {
 
-    UserModel get(Long id);
+    UserModel findById(Long id);
 
 }

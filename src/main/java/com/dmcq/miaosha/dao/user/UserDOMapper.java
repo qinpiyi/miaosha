@@ -1,4 +1,4 @@
-package com.dmcq.miaosha.dao;
+package com.dmcq.miaosha.dao.user;
 
 import com.dmcq.miaosha.dataobject.UserDO;
 import org.springframework.stereotype.Repository;
